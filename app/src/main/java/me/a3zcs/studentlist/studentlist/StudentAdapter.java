@@ -40,13 +40,14 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentV
     }
 
     class StudentViewHolder extends RecyclerView.ViewHolder{
-        //TODO MAKE YOUR ITEM CLICKABLE, DELETE CLICKED ITEM, AND UPDATE YOUR LIST
         TextView name, course;
 
         public StudentViewHolder(View itemView) {
             super(itemView);
             name = itemView.findViewById(R.id.student_name);
             course = itemView.findViewById(R.id.student_course);
+            //TODO MAKE YOUR ITEM CLICKABLE, DELETE CLICKED ITEM, AND UPDATE YOUR LIST
+
         }
 
     }
